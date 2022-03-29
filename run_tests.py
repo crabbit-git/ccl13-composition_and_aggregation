@@ -1,6 +1,6 @@
 import unittest
 
-# from tests.band_test import TestBand
+from tests.band_test import TestBand
 from tests.musician_test import TestMusician
 from tests.guitarist_test import TestGuitarist
 from tests.bassist_test import TestBassist
