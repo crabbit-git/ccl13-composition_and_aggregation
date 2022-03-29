@@ -12,3 +12,6 @@ class Musician:
     
     def add_money(self, salary):
         self.bank += salary
+    
+    def play(self):
+        return f"{self.name} is performing"
