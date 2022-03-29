@@ -10,8 +10,8 @@ class Musician:
     def get_bank(self):
         return self.bank
     
-    def add_money(self, salary):
-        self.bank += salary
+    def add_money(self, transact):
+        self.bank += transact
     
     def play(self):
         return f"{self.name} is performing"
